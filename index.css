@@ -41,3 +41,14 @@ html{
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   }
+
+  img{
+      border-radius: 50%;
+      inline-size: 30%;
+      position: relative;
+  }
+
+.overview{
+    text-align: center;
+    
+}
