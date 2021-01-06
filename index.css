@@ -50,5 +50,22 @@ html{
 
 .overview{
     text-align: center;
+    top: 30px;
     
 }
+.picture{
+  text-align: center;
+
+}
+html{
+  background-image: url(Ridge-Design-Website-Design-Background.jpeg);
+}
+
+.about{
+  text-align: center;
+}
+
+.cont{
+  text-align: center;
+}
+
