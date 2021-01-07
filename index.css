@@ -57,7 +57,7 @@ html{
   text-align: center;
 
 }
-html{
+.html{
   background-image: url(Ridge-Design-Website-Design-Background.jpeg);
 }
 
@@ -68,4 +68,27 @@ html{
 .cont{
   text-align: center;
 }
+.div{
+  text-align: center;
+}
 
+.line{
+  text-decoration: underline;
+  text-shadow: 2px 2px;
+  color: brown;
+}
+
+a{
+  color: yellow;
+}
+
+section{
+  text-align: center;
+}
+
+@media only screen and (max-width:768px){
+  /* for mobile phones : */
+  [class*="col-"]{
+    width:100%
+  }
+}
