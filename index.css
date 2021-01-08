@@ -1,3 +1,4 @@
+
 myid{
     background-color:aliceblue;
 }
@@ -174,4 +175,14 @@ h3{
    color: blue;
  }
 
- .
+ #align{
+   text-align: center;
+   color: darkgreen;
+ }
+
+ .align{
+   text-align: center;
+   color: indigo;
+   border-color: lawngreen;
+   border-radius: 20%;
+ }
