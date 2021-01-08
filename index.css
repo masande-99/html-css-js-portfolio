@@ -1,4 +1,4 @@
-html{
+myid{
     background-color:aliceblue;
 }
 
@@ -92,3 +92,104 @@ section{
     width:100%
   }
 }
+
+button{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #080355;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#f5f4f8;
+  text-align:center;
+  transition: all 0.2s;
+  }
+  button:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+  }
+  @media all and (max-width:30em){
+   button{
+  display:block;
+  margin:0.4em auto;
+  }
+  } 
+  body {font-family: Arial, Helvetica, sans-serif;}
+  * {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 15;
+  width: 100%;
+  background-color: rgb(22, 173, 166);
+  color: white;
+  text-align: center;
+
+border-top-style: solid;
+border-right-width: 486px;
+border-right-style: solid;
+border-left-width: 708px;
+border-left-style: solid;
+}
+footer :hover {
+  opacity:1.0;
+}
+
+h3{
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  color: darkgreen;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ .row{
+   text-align: center;
+ }
+
+ .color{
+   color: blue;
+ }
+
+ .
