@@ -149,24 +149,6 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 15;
-  width: 100%;
-  background-color: rgb(22, 173, 166);
-  color: white;
-  text-align: center;
-
-border-top-style: solid;
-border-right-width: 486px;
-border-right-style: solid;
-border-left-width: 708px;
-border-left-style: solid;
-}
-footer :hover {
-  opacity:1.0;
-}
 
 h3{
   text-align: center;
