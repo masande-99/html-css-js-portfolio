@@ -1,3 +1,3 @@
-function welcome() {
-    window.open("https://sweggapt.netlify.app")
+function displayDate(){
+    document.getElementById("showDate").innerHTML = Date();
 }
