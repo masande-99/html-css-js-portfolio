@@ -158,7 +158,7 @@ h3{
 .column {
   float: left;
   width: 50%;
-  color: darkgreen;
+  color: black;
 }
 
 /* Clear floats after the columns */
