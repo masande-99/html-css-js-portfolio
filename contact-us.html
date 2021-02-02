@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masande Gontyeleni</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet"  href="index.css">
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">MENU</button>
+        <button type="button" onclick="displayDate()">Show Date</button>
+        <p id="showDate"></p>
+        <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact-us.html">Contact</a>
+        <a href="projects.html">Projects</a>
+        <a href="ratings.html">My ratings</a>
+        </div>
+    </div>
+    <div class="cont">
+        <b><p>Contact me</p></b>
+               Email: gontyelenimasande@gmail.com<br>
+               <br>
+               Contact Number: 0789440677<br>
+               <br>
+               <a href="https://www.linkedin.com/in/masande-gontyeleni-9313921b6/">LinkedIn: www.linkedin.com/in/masande-gontyeleni-9313921b6</a><br>
+               <br>
+               <a href="https://github.com/masande-99?tab=repositories">GitHub:https://github.com/masande-99<br></a>
+        </p>
+    </div>
+    <h3>Contact Form</h3>
+    <div class="container">
+
+        <form action="https://formspree.io/f/xyybornb" method="POST">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+  
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+  
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country" placeholder="your country..">
+
+            <label for="subject">message</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+  
+            <button type="submit">SEND</button>
+    </form>
+    </div>
+</body>
+</html>
