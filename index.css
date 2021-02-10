@@ -45,13 +45,14 @@ myid{
 
   img{
       border-radius: 50%;
-      inline-size: 30%;
+      inline-size: 65%;
       position: relative;
   }
 
 .overview{
     text-align: center;
     top: 30px;
+    text-align: center;
     
 }
 .picture{
@@ -60,6 +61,8 @@ myid{
 }
 .html{
   background-image: url(Ridge-Design-Website-Design-Background.jpeg);
+  width: 100%;
+  height: 100%;
 }
 
 .about{
